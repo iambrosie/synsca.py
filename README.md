@@ -1,6 +1,6 @@
 # Description
 
-synscapy is a python2, scapy-based utility providing TCP SYN scan services. Since it uses raw sockets, it's supposed to run with superuser capabilities.
+synscapy is a python2, scapy-based utility providing TCP SYN scan services. Since it uses raw sockets, it's supposed to be run with superuser capabilities.
 
 ## Usage
 
@@ -21,6 +21,8 @@ optional arguments:
               the default value is 80
               please note that space characters are not allowed
 ```
+
+## Usage Example
 
 ```
 $ sudo ./synsca.py -p 1-1024 10.0.2.2
